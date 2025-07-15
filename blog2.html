@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dr. Tank -Water Tank Cleaning Service</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                <h1 class="text-primary"><a href="index.html"><i class="fas fa-hand-holding-water me-3"></i>Dr. Tank
+                </h1>
+                <!-- <img src="img/logo.png" alt="Logo"> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link">Service</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="feature.html" class="dropdown-item">Our Feature</a>
+                            <a href="blog.html" class="dropdown-item active">Blog & News</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="404.html" class="dropdown-item">404 Page</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <div class="d-none d-xl-flex me-3">
+                    <div class="d-flex flex-column pe-3 border-end border-primary">
+                        <span class="text-body">Get in Touch</span>
+                        <a href="tel:+4733378901"><span class="text-primary">Call: +94 77 839 9189</span></a>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-md-square d-flex flex-shrink-0 mb-3 mb-lg-0 rounded-circle me-3"
+                    data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                <a href="contact.html" class="btn btn-primary rounded-pill d-inline-flex flex-shrink-0 py-2 px-4">Get
+                    Service</a>
+            </div>
+        </nav>
+
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Blog-2</h4>
+                <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item active text-primary">Blog-2</li>
+                </ol>
+            </div>
+        </div>
+        <!-- Header End -->
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Modal Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center">
+                    <div class="input-group w-75 mx-auto d-flex">
+                        <input type="search" class="form-control p-3" placeholder="keywords"
+                            aria-describedby="search-icon-1">
+                        <span id="search-icon-1" class="input-group-text btn border p-3"><i
+                                class="fa fa-search text-white"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Search End -->
+
+
+    <!-- Detail Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="mb-5">
+                        <div class="d-flex mb-2">
+                            <a class="text-secondary text-uppercase font-weight-medium" href="">Admin</a>
+                            <span class="text-primary px-2">|</span>
+                            <a class="text-secondary text-uppercase font-weight-medium" href="">Cleaning</a>
+                            <span class="text-primary px-2">|</span>
+                            <a class="text-secondary text-uppercase font-weight-medium" href=""> Jun 28 2025</a>
+                        </div>
+                        <h1 class="section-title mb-3">Why is domestic water tank cleaning essential and how do you do
+                            it?</h1>
+                    </div>
+
+                    <div class="mb-5">
+                        <img class="img-fluid rounded w-100 mb-4" src="img/blog2.jpg" alt="Image">
+                        <p>Domestic water tanks should be inspected regularly and cleaned when deemed necessary.
+                        </p>
+
+                        <p> In this blog post, we explore why domestic water cleaning is essential and take you through
+                            a step by step process of how to do it.
+                        </p>
+                        <p>
+                        <h4> Why is domestic water tank cleaning important?</h4>
+                        <p>Domestic water tank cleaning is an essential part of water hygiene and Legionella control.
+                            Over time, dirt, dust, debris, mould and harmful bacteria, including Legionella, can build
+                            up in the water tank. Conducting risk assessment-based regular cleaning will remove these
+                            from the system, ensuring it is clean, safe and compliant with the law.</p>
+                        <p>
+
+                        <h5>A closer look at the risks </h5>
+                        </p>
+
+                        <p>Stagnant, low circulation water sources can be a potential breeding ground for unwanted and
+                            harmful bacteria. Stagnation can be caused by many factors including under-utilising water,
+                            using an excessively large tank, and issues in your water system causing blockages or poor
+                            flow. These factors aside, there will always be some stagnation in water tanks. Therefore
+                            regular cleaning and disinfection is essential even if these risks are low.
+                        </p>
+                        <p>
+                            Cold water storage tanks are also a common source of nutrients for biofilm and bacteria,
+                            including Legionella. Over time a dirty tank can develop rust, sediment, and silt; unchecked
+                            tanks can become contaminated with organic matter such as leaves and small animals in
+                            extreme cases.
+                        </p>
+                        <p>Another risk is debris coming in from the mains. The tank can act as a catchment area for
+                            debris, causing it to harbour nutrients and bacteria.</p>
+                        <h4> How should domestic water tank cleaning be carried out?</h4>
+                        <p><b>Step 1: Preparation</b><br>
+                        <p>Before you start the <a href="blog1.html">cleaning process</a>, follow the steps below.</p>
+                        <ul>
+                            <li>Ensure the team cleaning the water tank(s) are suitably trained, certified and have the
+                                correct PPE equipment.</li>
+                            <li> Check the Risk Assessment prior to work to familiarise technicians and Responsible
+                                Persons with hazards associated with the task, asset(s) and how to reduce or control any
+                                risks identified.</li>
+                            <li> Inform/communicate with all building users that cleaning work is about to take place
+                                (use signs as appropriate to reduce or prevent usage of showers/taps during work).</li>
+                            <li> Photograph the condition of the water tank before commencing work.</li>
+                            <li> A pre-disinfection cleaning flush is required.</li>
+                            <li> The tank inlet must be isolated so that the tank can be drained and inspected.</li>
+                            <li> Any booster pumps associated with the system tank should be isolated according to
+                                manufacturer's instructions.</li>
+                        </ul>
+                        <p><b>Step 2: Emptying the tank</b><br>
+                        <ul>
+                            <li>Empty the tank (to drain or as per the waste disposal licence as applicable).</li>
+                            <li>Take a photo of the empty tank for the Log Book.</li>
+                            <li>If entry is necessary, then two technicians must be present, and confined space safety
+                                rules, regulations and procedures must be followed.</li>
+                        </ul>
+                        <p><b>Step 3: Cleaning the tank </b><br>
+                        <ul>
+                            <li>Manually scrape clean all internal surfaces and vacuum the floors and walls with a wet
+                                vac. All visible dirt and debris should be removed. Any signs of damage, corrosion,
+                                scale, flaking, black spotting, and deficiencies (e.g. missing rodent screens,
+                                cross-flow vents etc) should be noted.</li>
+                        </ul>
+                        <p><b>Step 4: Refilling the tank </b><br>
+                        <ul>
+                            <li>Refill and flush the tank with fresh mains water checking for leaks during the refill
+                                process.</li>
+                        </ul>
+                        <p><b>Step 5: Disinfection and chlorination</b><br>
+                        <ul>
+                            <li>Note the pH of the mains water.</li>
+                            <li>For chemical disinfection, chlorinate the water in the tank to the specified
+                                concentration in mg/litre (ppm) of free residual chlorine.</li>
+                            <li>Determine the tank volume, required concentration, minimum contact time and dose per m3
+                                in water.</li>
+                            <li>Use a chlorine test kit to check the Sodium Hypochlorite and do not add chemicals to the
+                                tank until the tank is half-filled with water.</li>
+                            <li>Add further Sodium Hypochlorite if required and re-test to achieve 50PPM free residual
+                                chlorine in the tank. Chlorine may be added at 0.5 litres per m3 and mixed in the tank.
+                            </li>
+                            <li>The concentration of free chlorine is affected by pH. Do not use it in systems with a pH
+                                greater than 8.5 and adjust the contact time according to the approved Method Statement.
+                            </li>
+                            <li>Once the required level of chlorine is achieved and maintained, the outlet of the tank
+                                may be opened to allow chlorinated water to flow around the system.</li>
+                            <li>Chlorinated water flows to all outlets and needs to be checked by a technician by
+                                successively opening taps and showers. Use the most up-to-date Legionella Risk
+                                Assessment (or Water Hygiene Risk Assessment) to identify all sentinels (furthest
+                                points) and remaining outlets.</li>
+                            <li>Where testing all taps/showers is not possible or practical, as a minimum, test the
+                                sentinels at the end of each pipe-run along with a proportionate number of outlets along
+                                each leg.</li>
+                            <li> Ensure that 50PPM is achieved at all sentinels for 60 minutes or at least 20PPM for 120
+                                minutes.</li>
+                            <li> If you believe the water tank will run dry whilst pulling water through the system,
+                                turn
+                                off the outlet valve to prevent air from entering the system and refill the tank
+                                half-way before adding in another dose of chemical and completing the fill of the tank.
+                            </li>
+                            <li>If disinfecting hot down services, allow water from the tank to flow to the calorifier.
+                            </li>
+                            </li>
+                        </ul>
+                        <p><b>Step 6: System recommissioning </b><br>
+                        <ul>
+                            <li>After the required contact time, the chlorinated water must be neutralised using Sodium
+                                Thiosulphate (non-hazardous) if the disinfection is >5PPM. You require 2g of Sodium
+                                Thiosulphate to dilute 1PPM per 1,000L of water.</li>
+                            <li>Dissolve with tepid water and dose the tank. Allow to flow throughout the water
+                                distribution system and check that water is no-longer chlorinated using Starch/lodide
+                                papers.</li>
+                            <li>Drain the tank to half-way by opening the drain valve or by using a pump and pump out.
+                                The ball valve is opened to allow the tank to be refilled with fresh water. Ensure the
+                                ball valve closes correctly so that the tank is in no danger of over-filling.</li>
+                            <li>Once the system has been flushed through or partly drained the TDS should be measured
+                                and the levels should be equivalent to the incoming mains water supply (TDS within 5%).
+                            </li>
+                            Also, measure the concentration of free chlorine remaining in the tank. It should be
+                            between 0.5 and 0.1PPM.
+                            <li>Record the levels achieved in the Comments section of the Clean & Disinfection Report or
+                                Log Book. When levels are acceptable the warning labels should be collected from all
+                                outlets and the system returned for use. </li>
+                        </ul>
+                        <p><b>Step 7: Documenting the process </b><br>
+                        <ul>
+                            <li>Photograph the condition of the water before reapplying the tank lid.</li>
+                            <li>Complete a Disinfection Label for each tank and indicate if down services were included
+                                in the process.</li>
+                            <li>Sign and attach a label to each tank and remove the old sticker or place it over the
+                                previous one.</li>
+                            <li> If hot down services were disinfected, turn on the calorifier and ensure the
+                                temperature
+                                of the water is a minimum of 50°C on the return, or 55°C in a healthcare setting. The
+                                calorifier flow should be measured at a minimum of 60°C. Add a service sticker to the
+                                calorifier to show the details of the disinfection.</li>
+                            Ensure all equipment is removed and all valves are open on the tank and (if applicable)
+                            the calorifier (except Drain Valves).</li>
+                        </ul>
+                        <h4> How often should you clean your domestic water tank?</h4>
+                        <p>When and how often you should clean will differ depending on whether the cold water storage
+                            tanks serve the building’s drinking water are potable (used for washing hands etc) or
+                            non-potable (toilet flushing, possibly from rain water recovery) systems. Drinking water
+                            storage tanks need to be cleaned more regularly because they feed drinking water outlets.
+                        </p>
+                        <p>In line with The Health and Safety Executive's HSG274 guidelines and code of practice (ACOP
+                            L8), you must adhere to the following:
+                        </p>
+                        <ul>
+                            <li>The temperature of the tank from the inlet and outlet should be inspected at least
+                                annually.</li>
+                            <li>An internal inspection for signs of possible contamination and debris should be carried
+                                out every 6 months for drinking water and every 12 months for potable/non-potable water.
+                            </li>
+                            <li>Microbiological samples should be taken every 6 months for drinking water, and only as
+                                required by a control scheme for potable and potentially non-potable water.</li>
+                            <li>Water tanks should be cleaned and disinfected annually (or more frequently if an
+                                inspection deems it necessary) for drinking water and only when inspection deems
+                                necessary for potable and non-potable water.</li>
+                            <li>It is important to consider that although a water tank may contain non-potable water,
+                                aerosols may be created during usage and also maintenance procedures should be
+                                considered and risk assessed for activities such as testing fire tanks.</li>
+                        </ul>
+                        <h4>How can you safely dispose of any liquid waste? </h4>
+                        <p>Cleaning and disinfecting your tank can result in a lot of water waste. Letting too much
+                            water out at one time can cause erosion or flooding, so it’s important that the water
+                            follows a channel to its final disposal point.</p>
+                        <p>Wastewater should not be discarded in rivers as the organic materials and high chlorine
+                            levels can be dangerous for fish and plant life. Instead, it should be disposed of to a
+                            sewer network, transported to a sewage treatment plant or placed in a septic tank that flows
+                            into an underground soakage system.</p>
+
+                        <h4>Summary </h4>
+                        <p>Ultimately, domestic water tank cleaning is about maintaining good water hygiene, human
+                            health and safe water distribution systems. </p>
+                        <p>To find out how we can help you with domestic water tank cleaning or any other aspect of
+                            water treatment, <a href="contact.html">get in touch. </a></p>
+
+                       
+                    </div>
+                    <!-- 
+                    <div class="mb-5">
+                        <h3 class="mb-4 section-title">3 Comments</h3>
+                        <div class="media mb-4">
+                            <img src="img/user.jpg" alt="Image" class="img-fluid rounded-circle mr-3 mt-1" style="width: 45px;">
+                            <div class="media-body">
+                                <h6>John Doe <small><i>01 Jan 2045 at 12:00pm</i></small></h6>
+                                <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum clita, at tempor amet ipsum diam tempor sit.</p>
+                                <button class="btn btn-sm btn-light">Reply</button>
+                            </div>
+                        </div>
+                        <div class="media mb-4">
+                            <img src="img/user.jpg" alt="Image" class="img-fluid rounded-circle mr-3 mt-1" style="width: 45px;">
+                            <div class="media-body">
+                                <h6>John Doe <small><i>01 Jan 2045 at 12:00pm</i></small></h6>
+                                <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum clita, at tempor amet ipsum diam tempor sit.</p>
+                                <button class="btn btn-sm btn-light">Reply</button>
+                                <div class="media mt-4">
+                                    <img src="img/user.jpg" alt="Image" class="img-fluid rounded-circle mr-3 mt-1"
+                                        style="width: 45px;">
+                                    <div class="media-body">
+                                        <h6>John Doe <small><i>01 Jan 2045 at 12:00pm</i></small></h6>
+                                        <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum clita, at tempor amet ipsum diam tempor sit.</p>
+                                        <button class="btn btn-sm btn-light">Reply</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-light rounded p-5">
+                        <h3 class="mb-4 section-title">Leave a comment</h3>
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-sm-6">
+                                    <label for="name">Name *</label>
+                                    <input type="text" class="form-control" id="name">
+                                </div>
+                                <div class="form-group col-sm-6">
+                                    <label for="email">Email *</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="website">Website</label>
+                                <input type="url" class="form-control" id="website">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" cols="30" rows="5" class="form-control"></textarea>
+                            </div>
+                            <div class="form-group mb-0">
+                                <input type="submit" value="Leave Comment" class="btn btn-primary">
+                            </div>
+                        </form>
+                    </div> -->
+                </div>
+
+                <div class="col-lg-4 mt-5 mt-lg-0">
+                     <!-- <div class="d-flex flex-column text-center bg-secondary rounded mb-5 py-5 px-4">
+                        <img src="img/testimonial-1.jpg" class="img-fluid rounded-circle mx-auto mb-3"
+                            style="width: 100px;">
+                        <h3 class="text-white mb-3">John Doe</h3>
+                        <p class="text-white m-0">Conset elitr erat vero dolor ipsum et diam, eos dolor lorem ipsum,
+                            ipsum
+                            ipsum sit no ut est. Guber ea ipsum erat kasd amet est elitr ea sit.</p>
+                    </div> -->
+                    <div class="mb-5">
+                        <div class="w-100">
+                            <div class="input-group">
+                                <input type="text" class="form-control" style="padding: 25px;" placeholder="Keyword">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary px-4">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <h3 class="mb-4 section-title">Categories</h3>
+                        <ul class="list-inline m-0">
+                            <li class="mb-1 py-2 px-3 bg-light d-flex justify-content-between align-items-center">
+                                <a class="text-dark" href="#"><i
+                                        class="fa fa-angle-right text-secondary mr-2"></i>Overhead Tank Cleaning</a>
+                                <span class="badge badge-primary badge-pill">120</span>
+                            </li>
+                            <li class="mb-1 py-2 px-3 bg-light d-flex justify-content-between align-items-center">
+                                <a class="text-dark" href="#"><i
+                                        class="fa fa-angle-right text-secondary mr-2"></i>Underground Tank Cleaning</a>
+                                <span class="badge badge-primary badge-pill">95</span>
+                            </li>
+                            <li class="mb-1 py-2 px-3 bg-light d-flex justify-content-between align-items-center">
+                                <a class="text-dark" href="#"><i class="fa fa-angle-right text-secondary mr-2"></i>Tank
+                                    Disinfection</a>
+                                <span class="badge badge-primary badge-pill">80</span>
+                            </li>
+                            <li class="py-2 px-3 bg-light d-flex justify-content-between align-items-center">
+                                <a class="text-dark" href="#"><i class="fa fa-angle-right text-secondary mr-2"></i>Water
+                                    Treatments & Hygiene</a>
+                                <span class="badge badge-primary badge-pill">60</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-5">
+                        <img src="img/b23.png" alt="" class="img-fluid rounded">
+                    </div>
+                    <div class="mb-5">
+                        <h3 class="mb-4 section-title">Recent Post</h3>
+                          <div class="d-flex align-items-center border-bottom mb-3 pb-3">
+                            <img class="img-fluid rounded" src="img/blog1.png"
+                                style="width: 80px; height: 80px; object-fit: cover;" alt="">
+                            <div class="d-flex flex-column pl-3">
+                                <a class="text-dark mb-2" href="blog1.html">4 steps to clean a cold water tank</a>
+                                <div class="d-flex">
+                                    <small><a class="text-secondary text-uppercase font-weight-medium"
+                                            href="">Admin</a></small>
+                                    <small class="text-primary px-2">|</small>
+                                    <small><a class="text-secondary text-uppercase font-weight-medium"
+                                            href="">Cleaning</a></small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center border-bottom mb-3 pb-3">
+                            <img class="img-fluid rounded" src="img/blog3.png"
+                                style="width: 80px; height: 80px; object-fit: cover;" alt="">
+                            <div class="d-flex flex-column pl-3">
+                                <a class="text-dark mb-2" href="blog3.html">Water Tank Cleaning Myths Debunked</a>
+                                <div class="d-flex">
+                                    <small><a class="text-secondary text-uppercase font-weight-medium"
+                                            href="">Admin</a></small>
+                                    <small class="text-primary px-2">|</small>
+                                    <small><a class="text-secondary text-uppercase font-weight-medium"
+                                            href="">Cleaning</a></small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="mb-5">
+                        <img src="img/b22.png" alt="" class="img-fluid rounded">
+                    </div>
+                    <div class="mb-5">
+                        <h3 class="mb-4 section-title">Tag Cloud</h3>
+                       <div class="d-flex flex-wrap m-n1">
+                            <a href="" class="btn btn-outline-secondary m-1">Tank Cleaning</a>
+                            <a href="" class="btn btn-outline-secondary m-1">Home Service</a>
+                            <a href="" class="btn btn-outline-secondary m-1">Overhead Tanks</a>
+                            <a href="" class="btn btn-outline-secondary m-1">Underground Tanks</a>
+                            <a href="" class="btn btn-outline-secondary m-1">Water Hygiene</a>
+                            <a href="" class="btn btn-outline-secondary m-1">Disinfection</a>
+                        </div>
+                    </div>
+                    <!-- <div class="mb-5">
+                        <img src="img/blog-3.jpg" alt="" class="img-fluid rounded">
+                    </div>
+                    <div>
+                        <h3 class="mb-4 section-title">Plain Text</h3>
+                        Aliquyam sed lorem stet diam dolor sed ut sit. Ut sanctus erat ea est aliquyam dolor et. Et no
+                        consetetur eos labore ea erat voluptua et. Et aliquyam dolore sed erat. Magna sanctus sed eos
+                        tempor
+                        rebum dolor, tempor takimata clita sit et elitr ut eirmod.
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Detail End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 align-items-center">
+                <div class="col-lg-7">
+                    <div class="position-relative mx-auto">
+                        <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="Email address to Subscribe">
+                        <button type="button"
+                            class="btn btn-secondary rounded-pill position-absolute top-0 end-0 py-2 px-4 mt-2 me-2">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-end">
+                        <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i
+                                class="fab fa-instagram"></i></a>
+                        <a class="btn btn-secondary btn-md-square rounded-circle me-0" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <div class="footer-item">
+                            <h3 class="text-white mb-4"><i class="fas fa-hand-holding-water text-primary me-3"></i>Dr.
+                                Tank</h3>
+                            <p class="mb-3">Providing expert water tank cleaning services to ensure clean, safe, and
+                                healthy water for your home.</p>
+                        </div>
+                        <!-- <div class="position-relative">
+                            <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text"
+                                placeholder="Enter your email">
+                            <button type="button"
+                                class="btn btn-secondary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">About Us</h4>
+                        <a href="about.html"><i class="fas fa-angle-right me-2"></i> Why Choose Us</a>
+                        <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact us</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Business Hours</h4>
+                         <div class="mb-3">
+                            <h6 class="text-muted mb-0">Mon - Friday:</h6>
+                            <p class="text-white mb-0">09.00 am to 07.00 pm</p>
+                        </div>
+                        <div class="mb-3">
+                            <h6 class="text-muted mb-0">Saturday:</h6>
+                            <p class="text-white mb-0">10.00 am to 05.00 pm</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Contact Info</h4>
+                        <a href="#"><i class="fa fa-map-marker-alt me-2"></i> Boralesgamuwa, Sri Lanka</a> <a
+                            href="mailto:thimzlight@gmail.com"><i class="fas fa-envelope me-2"></i>
+                            thimzlight@gmail.com</a>
+                        <a href="tel:+94 77 839 9189"><i class="fas fa-phone me-2"></i> +94 77 839 9189</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-md-0">
+                    <span class="text-body"><a href="#" class="border-bottom text-white"><i
+                                class="fas fa-copyright text-light me-2"></i>Dr. Tank</a>, All right
+                        reserved.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end text-body">
+                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                    <!-- Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a>
+                    Distributed By <a class="border-bottom text-white" href="https://themewagon.com">ThemeWagon</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-secondary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
