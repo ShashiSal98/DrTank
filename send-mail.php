@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $to = "thimzlight@gmail.com";
+    $to = "shashi.salwathura78@gmail.com";
     $subject = "New Inquiry from Dr.Tank Website";
 
     $name = htmlspecialchars($_POST["name"]);
